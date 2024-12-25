@@ -28,7 +28,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
         const LinkIcon = link.icon;
-        console.log('they match',link.href.startsWith(pathname));
+        // console.log('they match',link.href.startsWith(pathname));
         
         return (
           <Link
